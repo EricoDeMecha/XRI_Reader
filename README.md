@@ -25,7 +25,7 @@ The header information block contains information on the file byte order, size o
 
 #### HIB Components
 
-[!HIB Components](https://github.com/EricoDeMecha/XRI_Reader/blob/main/imgs/HIBComponents.png)
+![HIB Components](https://github.com/EricoDeMecha/XRI_Reader/blob/main/imgs/HIBComponents.png)
 
 The information field follows the HIB. If i_len was zero, then no extra information is present, and the pixel data follows the HIB. If i_len is greater than zero then i_len specifies the number of ASCII characters that follow the HIB. This field allows infor-
 mation to be stored about the image file in a string.
